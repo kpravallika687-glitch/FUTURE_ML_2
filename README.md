@@ -1,0 +1,134 @@
+# Support Ticket Classification & Prioritization using Machine Learning
+
+##  Project Overview
+
+This project was developed as part of my **Machine Learning Internship at Future Interns**.
+
+The project focuses on automatically **classifying and prioritizing customer support tickets** using Machine Learning and Natural Language Processing (NLP).
+
+The system processes support ticket text and predicts:
+
+* **Ticket Category:** Billing, Technical Issue, Account, General Query
+* **Ticket Priority:** High, Medium, Low
+
+The objective is to reduce manual ticket sorting, improve response time, and help support teams handle customer issues efficiently.
+
+## 🎯 Objectives
+
+* Clean and preprocess support ticket text
+* Convert text into numerical features
+* Classify support tickets into appropriate categories
+* Predict ticket priority
+* Evaluate model performance
+* Analyze the business impact of automated ticket classification
+
+##  Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* NLTK
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* VS Code
+* Git & GitHub
+
+##  Techniques Used
+
+* Text Preprocessing
+* Tokenization
+* Stopword Removal
+* TF-IDF Vectorization
+* Machine Learning Classification
+* Train-Test Split
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+## 📊 Dataset
+
+A customer support ticket dataset was used for training and evaluating the Machine Learning model.
+
+The dataset contains text-based support tickets along with relevant classification information.
+
+## 🔄 Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Text Preprocessing
+4. Feature Extraction using TF-IDF
+5. Train-Test Split
+6. Model Training
+7. Ticket Classification
+8. Priority Prediction
+9. Model Evaluation
+
+## 📈 Model Evaluation
+
+The model was evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+The evaluation results were used to measure the effectiveness of the classification model.
+
+##  Business Impact
+
+The system can help organizations:
+
+* Reduce manual ticket sorting
+* Identify high-priority issues
+* Improve ticket routing
+* Reduce support backlog
+* Improve response time
+* Increase customer support efficiency
+
+##  Project Structure
+
+```text
+Support-Ticket-Classification/
+│
+├── data/
+├── support_ticket_classification.ipynb
+├── requirements.txt
+└── README.md
+```
+
+##  How to Run
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd Support-Ticket-Classification
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Open the notebook and run the cells sequentially.
+
+##  Future Enhancements
+
+* Real-time ticket classification
+* Web-based deployment
+* API integration
+* Advanced NLP models such as BERT
+* Automatic ticket routing
+
+##  Internship
+
+**Organization:** Future Interns
+**Internship:** Machine Learning Internship
+**Task:** Support Ticket Classification & Prioritization
+**Domain:** Machine Learning & NLP
+
+## 👩‍💻 Author
+
+**Pravallika K.**
+
+B.Tech – Computer Science & Engineering (Data Science)
